@@ -111,16 +111,17 @@
         {
             int max = 10;
             string name;
+            
             Console.Write("What is your name? ");
             name = Console.ReadLine();
             
-            if (name.ToLower() == "Aldworth")
+            if (name.ToLower() == "aldworth")
                 max = 5;
 
-            for (int i = 0; i <= max; i += 1) ;
-                Console.WriteLine(name);
-
+            for (int i = 1; i <= max; i += 1)
+                Console.WriteLine(i + ". " + name);
             
+
         }
     }
 
